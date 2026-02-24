@@ -287,7 +287,7 @@ export default function App() {
                   <Icon size={18} />
                 </div>
                 <h3 className="font-display text-2xl font-semibold leading-tight text-white">{title}</h3>
-                <p className="mt-4 font-body text-base leading-relaxed text-[#bac5e8]">{body}</p>
+                <p className="mt-4 font-body text-base leading-relaxed text-ink/80">{body}</p>
               </article>
             ))}
           </div>
