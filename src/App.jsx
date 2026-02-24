@@ -201,7 +201,7 @@ export default function App() {
             <div data-reveal>
               <p className="font-mono text-xs uppercase tracking-[0.18em] text-cyan/80">Why?</p>
               <h2 className="mt-3 max-w-md font-display text-3xl font-semibold leading-tight text-white md:text-5xl">
-                Buyer behavior already moved online. Your content strategy should too.
+                B2B Buyer behavior have changed. Your content strategy should too.
               </h2>
               <p className="mt-5 max-w-md font-body text-lg text-ink/80">
                 We design content around how B2B buying decisions are actually made today.
