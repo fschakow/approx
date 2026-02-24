@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  margin: 0;
+  min-height: 100%;
+}
+
+body {
+  font-family: 'Manrope', sans-serif;
+  background:
+    radial-gradient(circle at 12% 8%, rgba(50, 240, 255, 0.2), transparent 36%),
+    radial-gradient(circle at 84% 16%, rgba(248, 106, 255, 0.14), transparent 38%),
+    linear-gradient(180deg, #050611 0%, #070b1f 52%, #050814 100%);
+  color: #d6def9;
+}
+
+.noise-overlay {
+  opacity: 0.06;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 280 280' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.95' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  mix-blend-mode: soft-light;
+}
+
+.vignette-overlay {
+  background: radial-gradient(circle at center, transparent 45%, rgba(0, 0, 0, 0.45) 100%);
+}
+
+.grid-overlay {
+  background-image:
+    linear-gradient(rgba(116, 143, 255, 0.08) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(116, 143, 255, 0.08) 1px, transparent 1px);
+  background-size: 48px 48px;
+  mask-image: radial-gradient(circle at center, black 25%, transparent 78%);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
