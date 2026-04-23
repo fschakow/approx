@@ -60,7 +60,7 @@ const processSteps = [
   }
 ];
 
-const audiences = ['Consultants', 'B2B SaaS companies', 'Agencies and expert-led firms'];
+const audiences = ['Agencies', 'Recruitment Firms', 'Expert-led firms'];
 
 export default function App() {
   const appRef = useRef(null);
