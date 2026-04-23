@@ -163,7 +163,7 @@ export default function App() {
               <span className="block overflow-hidden text-cyan">Inbound Leads</span>
             </h1>
             <p className="mx-auto mt-8 max-w-3xl font-body text-lg leading-relaxed text-ink/80 md:text-xl" data-hero-copy>
-              We help B2B brands scale client acquisition through YouTube ecosystems.
+              We help agencies & recruitment firms get more leads with YouTube.
             </p>
             <div className="mt-10 flex flex-wrap items-center justify-center gap-4" data-hero-cta>
               <a
