@@ -153,7 +153,7 @@ export default function App() {
           <div className="mx-auto max-w-4xl text-center">
             <div className="mb-14 inline-flex items-center gap-2 rounded-full border border-line bg-white/[0.03] px-4 py-2" data-hero-eyebrow>
               <span className="h-2 w-2 rounded-full bg-cyan shadow-[0_0_16px_rgba(50,240,255,0.95)]" />
-              <p className="font-mono text-xs uppercase tracking-[0.2em] text-ink/70">Attention: Consultants, B2B SaaS & Agencies</p>
+              <p className="font-mono text-xs uppercase tracking-[0.2em] text-ink/70">Attention: Agencies & Recruitment Firms</p>
             </div>
             <h1
               className="font-display text-4xl font-semibold leading-[0.92] text-white sm:text-5xl md:text-6xl lg:text-[5.3rem]"
@@ -316,7 +316,7 @@ export default function App() {
         <div className="mx-auto flex w-full max-w-6xl flex-col gap-6 px-4 py-8 md:flex-row md:items-center md:justify-between md:px-8">
           <div>
             <p className="font-display text-lg tracking-[0.12em] text-white">APPROX</p>
-            <p className="mt-2 font-body text-sm text-ink/65">YouTube ecosystems for consultants, B2B SaaS companies & agencies.</p>
+            <p className="mt-2 font-body text-sm text-ink/65">YouTube ecosystems for Agencies & Recruitment Firms.</p>
           </div>
           <div className="flex items-center gap-5 font-body text-sm text-ink/75">
             <a href="#proof" className="transition hover:text-cyan">
